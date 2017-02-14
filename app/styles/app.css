@@ -3,3 +3,11 @@
 #explanation {
   text-decoration: underline;
 }
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item {
+  padding: 10px;
+}
