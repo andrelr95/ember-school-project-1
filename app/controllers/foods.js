@@ -20,9 +20,6 @@ export default Ember.Controller.extend({
         name: this.get('newItem')
       }).save();
       this.set('newItem', '');
-    },
-    destroyItem(food){
-      food.destroyRecord();
     }
   }
 });
